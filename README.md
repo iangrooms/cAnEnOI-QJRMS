@@ -1,1 +1,4 @@
 # cAnEnOI-QJRMS
+This repo contains some of the code related to a paper by I. Grooms in Quarterly Journal of the Royal Meteorological Society on the subject of using an ensemble of analogs in EnOI or EnVar. The file RHS.m implements the time tendency of the multiscale Lorenz-96 model used in the paper (cf. Grooms & Lee, Nonlin. Proc. Geophys. 2015). The file CNN_VAE.m is a Matlab file that sets up the variational autoencoder architecture used in the paper. The code used to train the network is adapted from the matlab VAE example [here](https://www.mathworks.com/help/deeplearning/ug/train-a-variational-autoencoder-vae-to-generate-images.html;jsessionid=44e75fefdc72c55ab1a7cb722bef), and requires the projectAndReshape layer that can be found [here](https://www.mathworks.com/help/deeplearning/ug/train-generative-adversarial-network.html). 
+
+The licensing on the code linked above is not at all clear, so I've refrained from posting my adaptations of that code here.
